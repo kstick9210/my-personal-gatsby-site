@@ -2,9 +2,10 @@ import React from 'react'
 import Header from '../header'
 import Footer from '../footer'
 import '../../styles/reset.scss'
+import styles from './layout.module.scss'
 
 export default (props) => (
-    <div>
+    <div className={styles.container}>
         <Header />
         <main>
             {props.children}

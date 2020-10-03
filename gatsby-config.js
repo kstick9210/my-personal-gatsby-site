@@ -5,6 +5,19 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  siteMetadata: {
+    title: `kstick Gatsby Site`,
+    author: `Kathleen Stickel`
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
+  ],
 }
