@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from 'gatsby'
+import styles from './header.module.scss'
 
 export default (props) => (
-    <header>
+    <header className={styles.header}>
         <h1>kstick</h1>
         <ul>
             <li>

@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: slategray;
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        li {
+            margin: .9rem;
+            a {
+                text-decoration: none;
+                color: mediumturquoise;
+            }
+        }
+    }
+}
