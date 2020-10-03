@@ -15,6 +15,9 @@ export default (props) => (
             <li>
                 <Link to="/contact">Contact</Link>
             </li>
+            <li>
+                <Link to="/blog">Blog</Link>
+            </li>
         </ul>
     </header>
 )
