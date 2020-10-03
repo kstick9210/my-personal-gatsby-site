@@ -16,7 +16,7 @@ export default (props) => {
                         html
                         frontmatter {
                             title
-                            date
+                            date(formatString: "DD MMMM, YYYY")
                         }
                     }
                 }
